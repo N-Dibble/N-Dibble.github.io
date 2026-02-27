@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nolan Ultimate Gaming Network</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🎮 NUGN</h1>
+  <nav>
+    <input type="text" id="search" placeholder="Search games...">
+    <button onclick="toggleTheme()">🌙</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>The Most Advanced Gaming Hub</h2>
+</section>
+
+<section>
+  <h2>🎮 Game Directory</h2>
+  <div id="games"></div>
+</section>
+
+<section>
+  <h2>🏆 Leaderboard</h2>
+  <input id="playerName" placeholder="Name">
+  <input id="score" type="number" placeholder="Score">
+  <button onclick="addScore()">Add</button>
+  <ul id="leaderboard"></ul>
+</section>
+
+<section>
+  <h2>💬 Live Chat (Demo)</h2>
+  <div class="chat-box" id="chatBox"></div>
+  <input id="chatInput" placeholder="Type message...">
+  <button onclick="sendMessage()">Send</button>
+</section>
+
+<section>
+  <h2>🎥 Featured Video</h2>
+  <iframe width="100%" height="400"
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+    allowfullscreen></iframe>
+</section>
+
+<footer>
+  <p>© 2026 Nolan Gaming Empire</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
